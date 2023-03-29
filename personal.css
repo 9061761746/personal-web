@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+     /*Header section*/
+header{
+    background-color:rgba(23,23,23,0.5);
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 2px;
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto;
+}
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    letter-spacing: 2px;
+    font-family: Tahoma;
+    color:rgba(255,255,255,0.719);
+
+}
+             /*Header END.....*/
+
+
+          /*Banner-section...*/
+.banner-container{
+ 
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(121, 93, 15, 0.849),rgb(13, 19, 22),rgb(101, 79, 33)),url("./pexels-asad-photo-maldives-1456291.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    align-items: center;
+}
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+
+}
+     /*Banner-End...*/
+
+
+     /*Left-section...*/
+
+.left-section h2 {
+    margin: 0px;
+    color: white;
+    font-size: 40px;
+
+    
+}
+.para{
+    color: white;
+}
+
+.left-section{
+    letter-spacing: 1px;
+    margin: 0px;
+    font-size: 15px;
+    margin-top: 18px;
+    line-height: 20px;
+    width: 450px;
+}
+.left-section button{
+     color: rgb(78,78,78);
+     background-color: white;
+     border: none;
+     padding: 12px 50px;
+     border-radius: 5px;
+     margin-top: 15px;
+     cursor: pointer;
+
+}
+
+       /*Left-END...*/
+     
+       /*R,FORM-section*/
+
+    .right-section{
+    height: 295px;
+    width: 400px;
+    background-color: white;
+    border-radius:  8px;
+    box-shadow: 0 5px 6px rgba(0,0,0,.26);
+    padding: 40px,0;
+    
+    }
+
+.right-section h4{
+
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 300px;
+    margin: auto;
+    color: rgba(136,136,136); 
+    margin-block-start: 10px;
+    margin-inline-start: 103px;
+
+  }
+.input-group{
+
+    width: 300px;
+     margin: 30px auto;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+}
+
+.input-group label{
+    color: rgba(165,165,165);
+    font-size: 13px;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+.input-group input{
+        border: none;
+        padding: 7px;
+        margin-top: 5px;
+        outline: none;
+        color: black;
+        border-bottom: 2px solid #3021218a;
+
+}
+.input-group input:focus ~ label,
+.input-group input:valid ~ label{
+    color: rgb(45, 65, 64);
+    top:-13px;
+    font-size: 12px;
+}
+.Btn-section{
+    margin-block: -20px;
+    text-align: center;
+
+}
+
+.submit-button{
+
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    color: rgb(247, 251, 255);
+    width: 300px;
+    padding: 10px,0;
+    width: 300px;
+    margin-top: 15px;
+    cursor: pointer;
+    height: 24px;
+    padding-top: 4px;
+}
+        /*R,FORM-END....*/
+
+      /*section-two*/
+
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.card-container {
+
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 26px rgb(39, 39, 39);
+    text-align: center;
+    
+}
+.card-container h1{
+   color: chocolate;
+   
+
+    
+}
+
+.img-container{
+
+    width: 100%;
+    height: 350px;
+    
+
+}
+.img-container img{
+     
+    width: 100%;
+     height: 100%;
+     border-radius: 5px;
+     object-fit: cover; 
+     transition: 0.5s ease-in-out;
+
+
+}
+.img-container img:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+        /*section two end...*/
+
+footer{
+     text-align: center;
+     color: darkslategray;
+     padding: 15px;
+        }
+footer span{
+    color: blueviolet;
+    font-weight: bold;
+}
